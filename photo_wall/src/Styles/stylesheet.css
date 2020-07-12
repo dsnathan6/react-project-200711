@@ -1,0 +1,112 @@
+html{
+    font-size: 10px;
+}
+.submitButton{
+    margin : 40px;
+    background: honeydew;
+    padding : 10px 40px;
+    font-style: italic;
+    font-family: dsn2;
+    font-size: large;
+    border: dimgray;
+    color: slategrey;
+    width: 90%;
+}
+
+@font-face{
+    font-family: dsn2;
+    src: url(Halimun-W7jn.ttf);
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: dsn;
+    color: grey;
+    letter-spacing: +6px
+}
+
+@font-face{
+    font-family: dsn;
+    src: url(Halimun-W7jn.ttf);
+}
+
+.imgDescribe{
+    font-size: 20px;
+    text-align: center;
+    font-family: dsn1;
+    color: grey;
+    letter-spacing: +1px
+}
+
+@font-face{
+    font-family: dsn1;
+    src: url(CassandraPersonalUseRegular-3BjG.ttf)
+    
+}
+
+.photoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.figure {
+flex-basis: calc(33.333% - 4rem);
+border: 1px solid #d3d3d3;
+padding: 2rem;
+flex-grow: 1;
+margin: 0 2rem 2rem 2rem;
+}
+
+.photo {
+    width: calc(100%);
+   }
+.addButton{
+    margin:20px auto;
+    display:table;
+    padding:30px;
+    background: url(add.jpeg);
+    background-size: contain;
+    border: none;
+
+}
+.removeButton{
+    margin:10px auto;
+    padding:20px;
+    background: url(delete.jpeg);
+    background-size: 100% 100%;
+    border: outset;
+
+}
+
+.addImage{
+    margin:10px auto;
+    padding:20px;
+    background: url(addbutton.jpeg);
+    background-size: 100% 100%;
+    border: outset;
+
+}
+
+form{
+    background: rgb(39, 41, 43);
+    margin:  0 auto;
+    padding : 30px;
+    max-width: 660px;
+    text-align: center;
+}
+
+form input{
+    font-family: sans-serif;
+    background: floralwhite;
+    width: 90%;
+    border:none;
+    margin : 10px;
+    padding:15px;
+    font-size: 21px;
+
+}
+
+
+
